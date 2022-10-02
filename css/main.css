@@ -1,0 +1,128 @@
+/*reset*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html {
+font-size : 62.5%;
+scroll-behavior : smooth;
+
+}
+body {
+font : 1.6rem sans-serif;
+margin : 0;
+line-height: 1.5;
+background-color:#363E40;
+}
+* {
+    box-sizing : border-box;
+    }
+
+ h1, h2, h3, h4, p,  ol, figure {
+     margin : 0;
+     padding : 0;
+     list-style : none;
+      }
+h1,h2, h3,h4,h5,h6 {
+font-family: 'Roboto', sans-serif;
+font-weight : 200;
+text-transform : capitalize;
+}
+
+section img {
+
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+a {
+    text-decoration : none;
+    color : #222;
+    }
+/*theme*/
+
+:root {
+--color-primary : #000000;
+--color-secondary : #ffffff;
+--color-complementary : #504c4c;
+--color-last : #D14600;
+--color-header :#DFE6E9;
+--color-text: rgb(2, 2, 2);
+}
+strong {
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+
+    
+}
+
+header  {
+    font-size: 12px;
+    text-align: center;
+     background-color: #DFE6E9;
+     padding: 0 0 1rem;
+     margin: 3rem 0 0;
+     }
+header img {
+    height: 20px;
+    width: 20px;
+}
+nav {
+    background-color:var(--color-secondary);
+    padding: .1rem 0 0;
+    text-align: center;
+    font-size: medium;
+    text-transform: uppercase;
+}
+nav ul li {
+    display: inline-block;
+    margin:0  .8rem 0;
+}
+ 
+ main {
+    position:relative;
+    background-color:var(--color-secondary);
+     width: 80rem;
+     height: 40rem;
+       margin : 10rem auto 10rem auto ;
+        border-radius: .6rem;
+       }
+     figure {
+          display: flex;
+        font-size: 14px;  
+    }
+  figure figcaption h2 {
+         font-size: medium;
+         margin: .8rem;
+          }
+
+figure figcaption p   {
+    margin: .8rem;
+
+}
+
+main button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    background-color:var(--color-last);
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+}
+span{
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background:var(--color-secondary);
+    width: 100%;
+    position: fixed;
+    font-size: medium;
+    padding: .5rem;
+    
+}
+
