@@ -108,6 +108,8 @@ figure button{
     background-color:var(--color-last);
     color: #fff;
     border-radius: 5px;
+    padding: 1rem  1rem;
+    border-radius: .8rem;
    
    
 }
