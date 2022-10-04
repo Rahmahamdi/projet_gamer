@@ -61,13 +61,12 @@ header  {
     text-align: center;
      background-color: #DFE6E9;
      padding: 0 0 1rem;
-     margin: 3rem 0 0;
      }
 header img {
     height: 20px;
     width: 20px;
 }
-nav {
+main nav {
     background-color:var(--color-secondary);
     padding: .1rem 0 0;
     text-align: center;
@@ -79,10 +78,10 @@ nav ul li {
     margin:0  .8rem 0;
 }
  
- main {
+ figure {
     position:relative;
     background-color:var(--color-secondary);
-     width: 80rem;
+     max-width: 80rem;
      height: 40rem;
        margin : 10rem auto 10rem auto ;
         border-radius: .6rem;
@@ -101,21 +100,26 @@ figure figcaption p   {
 
 }
 
-main button{
+figure button{
     position: absolute;
     bottom: 10px;
     right: 10px;
     display: flex;
     background-color:var(--color-last);
     color: #fff;
-    border-radius: 2px;
-    border: none;
+    border-radius: 5px;
+   
+   
 }
 span{
     padding: 0;
     margin: 0;
+    
 }
 
+button span {
+    filter: invert(100%);
+}
 footer {
     text-align: center;
     background:var(--color-secondary);
@@ -123,6 +127,52 @@ footer {
     position: fixed;
     font-size: medium;
     padding: .5rem;
+    position: fixed;
+    bottom: 0rem;
+    
     
 }
 
+/* responsive */
+@media screen and (max-width: 50.0rem){
+    body {
+        background-color:#fff;
+    }
+
+    header{
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+    nav ul li {
+        display: flex;
+        margin: .8rem;
+
+    }
+
+    main figure {
+        margin: 0 ;
+        display: block;
+      
+ }
+    figure figcaption h2 {
+        padding-left: 2rem;
+    }
+
+    FIGURE FIGCAPTION OL LI {
+    padding-left: 1REM;
+    }
+     figure button {
+        
+        margin:0 12rem;
+        
+        
+    }
+    footer {
+       padding: 0rem;
+       position: absolute;
+       background-color: #eeecec;
+       
+       
+    }
+}
