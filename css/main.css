@@ -49,7 +49,7 @@ strong {
 }
 
 header  {
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
      background-color: #DFE6E9;
      padding: 0 0 1rem;
@@ -72,7 +72,6 @@ nav ul li {
     margin: 0 4rem 0;
     width:calc(100%/3 +0.6rem);
     text-align: center;
-    
 
 }
 
@@ -89,8 +88,7 @@ nav ul li img {
     position:relative;
     background-color:var(--color-secondary);
      max-width: 80rem;
-     height: 40rem;
-       margin : 10rem auto 10rem auto ;
+    margin : 10rem auto 10rem auto ;
         border-radius: .6rem;
           display: flex;
         font-size: 14px;  
@@ -104,7 +102,7 @@ figure figcaption p   {
     margin: .8rem;
     }
 
-   
+  
 
 figure button{
     position: absolute;
@@ -118,7 +116,7 @@ figure button{
     width: 20rem;
     cursor: pointer;
     border:none;
-    font-size: 18px;
+    font-size: 16px;
    
    
 }
@@ -194,10 +192,9 @@ footer {
      figure button {
         
         position: inherit;
+        display: block;
         margin: 0 auto;
         padding-top: 1rem;
-        margin: 0 auto;
-        display: block;
         
      }
 
@@ -205,5 +202,8 @@ footer {
         margin-left: .8rem ;
         
     }
-   
+   footer {
+       width: auto;
+       position: relative;
+   }
 }
