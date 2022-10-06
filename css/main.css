@@ -79,6 +79,7 @@ nav ul li {
     justify-content: center;
     margin: 0 4rem 0;
     width:calc(100%/3 +0.6rem);
+    text-align: center;
 
 }
 
@@ -104,6 +105,7 @@ nav ul li img {
 
 figure figcaption p   {
     margin: .8rem;
+
 
 }
 
@@ -168,19 +170,19 @@ footer {
     nav ul li img {
        margin: 0 0.8rem;
     }
-    main nav ul{
+     nav ul{
         margin: 0rem;
         padding: 0rem;
     } 
 
-    main figure {
+     figure {
         margin: 0 ;
         display: block;
         margin: 0rem 1rem;
       
  }
 
- main figure img {
+  figure img {
      max-width: 30rem;
      margin-left: 4rem;
  }
@@ -196,6 +198,8 @@ footer {
         position: inherit;
         margin: 0 auto;
         padding-top: 1rem;
+        margin: 0 auto;
+        display: block;
         
      }
 
@@ -203,13 +207,5 @@ footer {
         margin-left: .8rem ;
         
     }
-    footer {
-        margin: 17rem auto ; 
-       padding: 0rem;
-       position: relative;
-       background-color: #eeecec;
-       bottom: 0;
-       
-       
-    }
+   
 }
