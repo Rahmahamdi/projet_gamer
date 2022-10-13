@@ -163,8 +163,10 @@ footer {
         
     }
     nav ul li {
-        display: flex;
-        margin: .8rem;
+      display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: .6rem;
         justify-content: flex-start;
         transition: 0s;
 
