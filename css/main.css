@@ -170,6 +170,9 @@ footer {
 
     
     }
+    .material-symbols-outlined{
+    vertical-align: -0.6rem;
+}
 
     nav ul li img {
        margin: 0 0.8rem;
